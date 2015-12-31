@@ -92,8 +92,6 @@ dkrm () {
 
 alias rmf="rm -rf"
 alias algos="desktop;cd hackreactor-meetup"
-alias brogram="osascript -e \"tell application \"Spotify\" to play track \"spotify:user:123057552:playlist:4FcU2eCMph5xPyKEjElXQq\"\""
 alias spotify="open ~/Applications/Spotify.app"
 alias loip="ifconfig en0 | grep -oE '((1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])' | head -1"
-alias brogram="/usr/local/bin/playbrogram"
 alias ip="curl -s ipinfo.io | grep -oE '((1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])\.){3}(1?[0-9][0-9]?|2[0-4][0-9]|25[0-5])' | head -1"
