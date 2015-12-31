@@ -78,10 +78,6 @@ gitsquash () {
   git rebase -i $1;
 }
 
-gitrebaseElectron () {
-  git checkout electron-master; git pull --rebase upstream electron; git checkout $1; git merge electron-master
-}
-
 dkme () {
   eval "$(docker-machine env $1)"
 }
